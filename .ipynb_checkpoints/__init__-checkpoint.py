@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 
 def plot_linreg6(dataset, lr_model, feat_num):
 # input: dataset, a trained linear regression model lr_model, and feat_num: which feature number of X you want to plot against y target
-# output: a plot of the x and y data points as well as a fitted linear regression line
+# output: a plot of the x and y data points as well as a fitted linear regression line.
     slope = lr_model.coef_
     intercept = lr_model.intercept_
 
